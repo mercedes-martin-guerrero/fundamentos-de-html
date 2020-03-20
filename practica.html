@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Curso Básico HTML5</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="file.js" language="javascript" type="text/javascript"></script>
+	</head>
+	
+	<body>
+		<h1>Hola Mundo</h1>
+		
+		<ul>
+			<li><a href="">Menu item 1</a></li>
+			<li><a href="">Menu item 2</a></li>
+			<li><a href="">Menu item 3</a></li>
+		</ul>
+
+		<h2>Mi Noticia</h2>
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		<img src="imagen.jpg" alt="Imagen">
+		<h2>Mi Formulario</h2>
+		<form>
+			<fieldset>
+				<legend>Datos personales</legend>
+				<p>Nombre: <input type="text" name="Nombre"></p>
+				<p>Apellidos: <input type="text" name="Apellidos"></p>
+				<p>Teléfono: <input type="tel" name="Telefono"></p>
+				
+				<p>Nº Documento: <input type="text" name="NDocumento"></p>
+			</fieldset>
+			<fieldset>
+				<legend>Otros datos</legend>
+				<p>Número de hermanos/as: <input type="text" name="NHermanos"></p>
+				<p>Deportes favoritos:</p>
+				<ol>
+					<li>Fútbol: <input type="checkbox" id="Futbol" name="Futbol" value="Futbol"></li>
+					<li>Baloncesto: <input type="checkbox" id="Baloncesto" name="Baloncesto" value="Baloncesto"></li>
+					<li>Rugby: <input type="checkbox" id="Rugby" name="Rugby" value="Rugby"></li>
+					<li>Padel: <input type="checkbox" id="Padel" name="Padel" value="Padel"></li>
+					<li>Pelota Vasca: <input type="checkbox" id="Pelota" name="Pelota" value="Pelota"></li>
+				</ol>
+			</fieldset>
+			
+			<input type="button" onclick="reset()" value="Reset form">
+			<input type="submit" value="Enviar">
+		</form>
+		
+		<h2>Título de nuestra tabla molona</h2>
+		<table>
+			<tr>
+				<th>Nombre</th>
+				<th>Apellidos</th> 
+				<th>Teléfono</th>
+				<th>DNI/NIE</th>
+				<th>Deportes</th>
+			</tr>
+			<tr>
+				<td>Carlos</td>
+				<td>Casalengua</td>
+				<td>98867999999</td>
+				<td>56468745-A</td>
+				<td>Fútbol, Padel</td>
+			</tr>
+			<tr>
+				<td>Jesús</td>
+				<td>Cardenas</td>
+				<td>98867999999</td>
+				<td>56468745-Z</td>
+				<td>Rugby, Pelota Vasca</td>
+			</tr>
+		</table>
+		
+	</body>
+</html>
